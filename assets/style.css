@@ -1,0 +1,73 @@
+body {
+  background-color: #141519;
+  display: grid;
+  grid-template-rows: auto 40px;
+  min-height: 100vh;
+  max-height: 100%;
+}
+.caixa {
+  background-color: #1e252f;
+  margin: auto;
+  width: 415px;
+  height: 415px;
+  border-radius: 33px;
+  border: none;
+  padding: 33px;
+}
+
+.estrela {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background-color: #262f38;
+  border: 0px;
+}
+
+.titulo {
+  color: #ffffff;
+  display: block;
+}
+
+.paragrafo {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+.botoesnotas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botoesnotas button {
+  background-color: #262f38;
+  border-radius: 100%;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  color: hsl(217, 12%, 63%);
+}
+
+.botaosubmit {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  border: 0px;
+  align-self: center;
+  display: flex;
+  margin: auto;
+  height: 45px;
+  width: 340px;
+  justify-content: center;
+  align-items: center;
+  color: #f5edc5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  color: #62677b;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
