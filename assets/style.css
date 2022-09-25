@@ -1,18 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
 body {
   background-color: #141519;
   display: grid;
   grid-template-rows: auto 40px;
   min-height: 100vh;
   max-height: 100%;
+  font-family: "Overpass", sans-serif;
 }
 .caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #1e252f;
   margin: auto;
-  width: 415px;
-  height: 415px;
+  width: 410px;
+  height: 420px;
   border-radius: 33px;
   border: none;
-  padding: 33px;
+  padding: 35px;
 }
 
 .estrela {
@@ -26,16 +32,24 @@ body {
 .titulo {
   color: #ffffff;
   display: block;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .paragrafo {
   font-size: 15px;
   color: hsl(217, 12%, 63%);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+  width: 85%;
 }
 
 .botoesnotas {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+  align-self: center;
 }
 
 .botoesnotas button {
@@ -53,12 +67,13 @@ body {
   border: 0px;
   align-self: center;
   display: flex;
-  margin: auto;
+  width: 100%;
   height: 45px;
-  width: 340px;
   justify-content: center;
   align-items: center;
   color: #f5edc5;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .attribution {
