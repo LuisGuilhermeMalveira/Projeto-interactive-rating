@@ -8,7 +8,7 @@ body {
   max-height: 100%;
   font-family: "Overpass", sans-serif;
 }
-.caixa {
+.caixa1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,6 +27,10 @@ body {
   height: 50px;
   background-color: #262f38;
   border: 0px;
+  cursor: pointer;
+}
+.estrela:hover {
+  background-color: #62677b;
 }
 
 .titulo {
@@ -45,14 +49,14 @@ body {
   width: 85%;
 }
 
-.botoesnotas {
+.caixa1 ul {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   align-self: center;
 }
 
-.botoesnotas button {
+.caixa1 ul li button {
   background-color: #262f38;
   border-radius: 100%;
   border: 0px;
@@ -61,8 +65,24 @@ body {
   color: hsl(217, 12%, 63%);
 }
 
+.botaonota {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.botaonota:hover {
+  background-color: #fb7718;
+  cursor: pointer;
+}
+
+.botaonota:focus {
+  background-color: #62677b;
+}
+
 .botaosubmit {
-  background-color: hsl(25, 97%, 53%);
+  background-color: #fb7718;
   border-radius: 50px;
   border: 0px;
   align-self: center;
@@ -74,6 +94,68 @@ body {
   color: #f5edc5;
   font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.3s;
+}
+
+.botaosubmit:hover {
+  background-color: white;
+  color: orangered;
+  cursor: pointer;
+}
+
+.caixa2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1e252f;
+  margin: auto;
+  width: 410px;
+  height: 420px;
+  border-radius: 33px;
+  border: none;
+  padding: 35px;
+  text-align: center;
+}
+.conteudo2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simbolox {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background-color: #262f38;
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+}
+.simbolox:hover {
+  background-color: #62677b;
+}
+
+.hidden {
+  display: none;
+}
+
+.resultado {
+  background-color: #262f38;
+  color: orange;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.imgtankyou {
+  display: flex;
+  height: 110px;
+}
+#tankyou {
+  cursor: pointer;
 }
 
 .attribution {

@@ -18,9 +18,14 @@
 		<title>Frontend Mentor | Interactive rating component</title>
 	</head>
 	<body>
-		<div class="caixa">
+		<div class="caixa1">
 			<button class="estrela">
-				<img src="./images/icon-star.svg" alt="Estrela" />
+				<img class="estrelacinza" src="./images/icon-star.svg" alt="Estrela" />
+				<img
+					class="estrelalaranja hidden"
+					src="./images/icon-star-hover.svg"
+					alt="Estrela laranja"
+				/>
 			</button>
 			<span class="titulo">How did we do?</span>
 			<span class="paragrafo">
@@ -28,28 +33,48 @@
 				appreciated to help us improve our offering!
 			</span>
 
-			<div class="botoesnotas">
-				<button>1</button>
-				<button>2</button>
-				<button>3</button>
-				<button>4</button>
-				<button>5</button>
-			</div>
+			<ul>
+				<li><button class="botaonota">1</button></li>
+				<li><button class="botaonota">2</button></li>
+				<li><button class="botaonota">3</button></li>
+				<li><button class="botaonota">4</button></li>
+				<li><button class="botaonota">5</button></li>
+			</ul>
 
-			<button class="botaosubmit">SUBMIT</button>
+			<button type="submit" class="botaosubmit" id="submit">Submit</button>
 		</div>
 
-		<!--You selected
-			 Add rating here
-			out of 5 Thank you! We appreciate you taking the time to give a rating. If
-			you ever need more support, don’t hesitate to get in touch!
-		  -->
+		<div class="caixa2 hidden">
+			<img
+				class="simbolox"
+				src="./images/x-symbol-svgrepo-com (2).svg"
+				alt="Simbolo X"
+			/>
 
-		<div class="attribution">
+			<div class="conteudo2">
+				<img
+					class="imgtankyou"
+					src="./images/illustration-thank-you.svg"
+					alt="imagem de agradecimento"
+				/>
+				<div class="resultado">You selected <span>4</span> out of 5</div>
+
+				<h1 class="titulo" id="tankyou">Thank you!</h1>
+
+				<div class="paragrafo">
+					We appreciate you taking the time to give a rating. If you ever need
+					more support, don’t hesitate to get in touch!
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
 			>. Coded by <a href="#">Luís Guilherme Theóphilo Malveira</a>.
-		</div>
+		</div>-->
+
+		<script src="./assets/main.js"></script>
 	</body>
 </html>
