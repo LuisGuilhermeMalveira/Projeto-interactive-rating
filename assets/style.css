@@ -65,19 +65,19 @@ body {
   color: hsl(217, 12%, 63%);
 }
 
-.botaonota {
+.botoesNota {
   display: flex;
   justify-content: space-around;
   align-items: center;
   transition: 0.3s;
 }
 
-.botaonota:hover {
+.botoesNota:hover {
   background-color: #fb7718;
   cursor: pointer;
 }
 
-.botaonota:focus {
+.botoesNota:focus {
   background-color: #62677b;
 }
 
@@ -99,7 +99,7 @@ body {
   transition: 0.3s;
 }
 
-.botaosubmit:hover {
+.botaosubmithover:hover {
   background-color: white;
   color: orangered;
   cursor: pointer;
@@ -153,9 +153,6 @@ body {
 .imgtankyou {
   display: flex;
   height: 110px;
-}
-#tankyou {
-  cursor: pointer;
 }
 
 .attribution {
