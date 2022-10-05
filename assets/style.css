@@ -64,6 +64,19 @@ body {
   height: 50px;
   color: hsl(217, 12%, 63%);
 }
+.caixa2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1e252f;
+  margin: auto;
+  width: 410px;
+  height: 420px;
+  border-radius: 33px;
+  border: none;
+  padding: 35px;
+  text-align: center;
+}
 
 .botoesNota {
   display: flex;
@@ -164,4 +177,16 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 490px) {
+  .caixa1 {
+    width: 80%;
+    height: auto;
+    min-height: 420px;
+  }
+  .caixa2 {
+    width: 80%;
+    min-width: 150px;
+  }
 }
